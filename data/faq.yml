@@ -1,0 +1,14 @@
+enable: true
+title: Frequently asked questions
+description: A few pointers about AstroVault Wallet development, usage, milestones and brief roadmap overview.
+faqItem:
+  - question: How to Install AstroVault?
+    answer: AstroVault can be installed from our Download link & shall be available on Google Play soon. Note, only download and install AstroVault Wallet from AstroVaultwallet.com.
+    dataTarget: One
+    show:
+
+  - question: How safe is AstroVault Wallet?
+    answer: AstroVault is designed with security and transparency as top priorities. Being an open-source, non-custodial wallet, you have complete control over your private keys, ensuring no third party, including us, can access your funds. Additionally, we employ industry-standard encryption and best practices for secure transactions. Always remember to back up your recovery phrase and keep it private, as it is the key to your wallet.
+    dataTarget: Three
+    show: show 
+

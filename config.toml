@@ -1,0 +1,72 @@
+# MAIN base
+baseURL = "/"
+languageCode = "en-us"
+title = "AstroVault | Home"
+theme = "apsho"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+# Navigation Bar
+[[menu.main]]
+    name = "Home"
+    url = "#hero"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "#feature"
+    weight = 5
+[[menu.main]]
+    name = "Get Started"
+    url = "get-started/"
+    weight = 2
+[[menu.main]]
+    name = "FAQ"
+    url = "#faq"
+    weight = 3
+
+[[menu.main]]
+    name = "Privacy & Policy"
+    url = "privacy/"
+    weight = 7
+
+# Footer Sitemap
+[[menu.sitemap]]
+    name = "Home"
+    url = "#"
+    weight = 1
+
+# Copy Privacy Policy from Mobile app 
+[[menu.sitemap]]
+    name = "Privacy & Policy"
+    url = "/privacy"
+    weight = 3
+
+[[menu.sitemap]]
+    name = "Contact"
+    url = "/contact"
+    weight = 4
+
+# Footer Address
+[params.address]
+  email = "astrovault@bitgesell.dev"
+
+# Footer Social
+[params.social]
+discord = "https://discord.gg/rbUQCFSs"
+github = "https://github.com/AstroVault"
+
+[params]
+
+# Header
+logo = "images/logo.png"
+fabFormURL = "https://fabform.io/f/zWMBVeW"
+googleAnalytics = "G-38ETGMEHJ5" # Replace with google analytics key
+
+# Footer
+footerTitle = "Join Weekly Newsletter"
+copyright1 = "All right reserved"
+copyright2 = "Copyright ©  <a href=\"https://sevaulwalletwallet.com/\" target=\"_blank\">AstroVault </a> {year}"
+copyright4 = "Donate (USDT Ethereum) 0xe8931e29af87d9c65476aba80cff2e8d074c95ed"
+
+#contact
+email = "info@AstroVaultwallet.com"

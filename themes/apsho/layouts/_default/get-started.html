@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{partial "head" . }}
+{{partial "header" . }}
+<div class="container" style="margin-top: 10vh;">
+  <div class="row">
+    <div class="col-md-6" data-aos="fade-up" data-aos-duration="1500">
+      <h2 style="padding-bottom: 30px">Install AstroVault</h2>
+      <div class="hero-content" data-aos="fade-up" data-aos-duration="1500">
+        <p>
+          AstroVault wallet currently is compatible with most Android devices. However, AstroVault wallet is still being tested
+          on Tablet Devices.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 80px;" data-aos="fade-up" data-aos-duration="1500">
+    <div class="col-md-6">
+      {{ partial "storeButtons" . }}
+    </div>
+  </div>
+</div>
+{{partial "footer" . }}
+{{end}}
