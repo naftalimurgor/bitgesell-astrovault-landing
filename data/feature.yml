@@ -11,6 +11,6 @@ image2: images/feature/feature-illustration-two.png
 
 checkItem:
   - text: Easy to set up.
-  - text: Backup privateKeys, seephrases and passwords.
+  - text: Backup privateKeys, seed phrases and passwords.
   - text: Seamlessly transact & perform token swaps(future release!) from you app.
   - text: Secure, sandbox environment, unlike browser web extension based wallets which are succeptible to loss through malicious dApps.
